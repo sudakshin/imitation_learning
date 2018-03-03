@@ -15,7 +15,6 @@ key = 0
 
 def OnKeyPress(event):
     global key
-    key = 0
     if event.Ascii in 116:
         key = 116
 '''
@@ -114,6 +113,7 @@ def main():
             if paused:
                 paused = False
                 print('UnPaused')
+                key = 0
             else:
                 paused = True
                 print('Paused')
