@@ -18,13 +18,13 @@ def OnKeyPress(event):
     key = 0
     if event.Ascii in 116:
         key = 116
-
-#w = [1,0,0,0,0]
-#a = [0,1,0,0,0]
-#d = [0,0,1,0,0]
-#nk = [0,0,0,1,0]
-#j = [0,0,0,0,1]
-
+'''
+w = [1,0,0,0,0]
+a = [0,1,0,0,0]
+d = [0,0,1,0,0]
+nk = [0,0,0,1,0]
+f = [0,0,0,0,1]
+'''
 check_junction = True
 junction_count = 0
 start_time = 0.0
